@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Estilos Generales de la Web*/
+        html, body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+            padding:0;
+            background-color: #f4f4f4;
+        }
+        /*Estilos del header*/
+         header{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+         }
+         .subtitulo{
+            font-size: 18px;
+            color: #ddd
+         }
+         nav{
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+         }
+         nav ul{
+            list-style: none;
+            padding: 0;
+         }
+         nav ul li{
+            display: inline;
+            margin: 0 15px;
+         }
+         nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+         }
+         nav ul li a:hover{
+            color: yellow;
+         }
+         .contenido{
+            width: 60%;
+            margin:2%;
+            background-color: white;
+            padding: 2%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+            
+         }
+         .destacado{
+            background-color: yellow;
+            font-weight: bold;
+            padding: 10px;
+         }
+         aside{
+            width: 21%;
+            background-color: #ddd;
+            padding: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+            float: left;
+         }
+         footer{
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Web</h1>
+        <p class="subtitulo">Aprendiendo HTML y CSS</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="index.html">FOTOS</a></li>
+            <li><a href="index.html">VÍDEOS</a></li>
+            <li><a href="index.html">HISTORIA</a></li>
+            <li><a href="index.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <section class="contenido">
+        <h2>Sobre Nosotros</h2>
+        <p class="destacado">Somos una empresa dedicada al desarrollo Web.</p>
+        <p>Ofrecemos soluciones modernas.</p>
+    </section>
+    <aside>
+        <h3>NOTICIAS RECIENTES</h3>
+        <p>CSS es una herramienta potente.</p>
+    </aside>
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
